@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>odemo</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>algorithm</module>
+        <module>netty</module>
+        <module>flink</module>
+        <module>es</module>
+        <module>lucene</module>
+        <module>java</module>
+        <module>grpc</module>
+        <module>guice</module>
+        <module>guice/guice-5.0.1</module>
+        <module>es/es-7.13</module>
+        <module>spring</module>
+        <module>pipeline</module>
+        <module>distributed</module>
+        <module>spring/webflux</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+</project>

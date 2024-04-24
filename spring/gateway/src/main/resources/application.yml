@@ -1,0 +1,14 @@
+server:
+  name: gateway
+  port: 8888
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: redirect
+          uri: https://baidu.com
+          predicates:
+            - Path=/baidu/**
+          filters:
+            - RewritePath=/baidu/?(?<remaining>.*), /$\{remaining}
