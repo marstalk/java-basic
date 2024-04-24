@@ -1,9 +1,7 @@
+import java.nio.file.Paths;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.asserts.Assertion;
-
-import java.io.IOException;
-import java.nio.file.Paths;
 
 
 public class IndexWriterTests {

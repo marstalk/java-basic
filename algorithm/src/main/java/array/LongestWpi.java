@@ -31,9 +31,7 @@ public class LongestWpi {
         if (hours == null || hours.length == 0)
             return 0;
 
-        int left = -1
-        
-        ;
+        int left = -1;
         int right = 0;
         int res = 0;
         int tmp = 0;
