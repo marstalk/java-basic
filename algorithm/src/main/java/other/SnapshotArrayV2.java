@@ -44,6 +44,7 @@ public class SnapshotArrayV2 {
      * 创建长度是length的快照数组。
      * @param length
      */
+    @SuppressWarnings("unchecked")
     public SnapshotArrayV2(int length) {
         this.mapArray = new Map[length];
         this.currentVersion = 0;

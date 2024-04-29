@@ -69,6 +69,7 @@ public class SnapshotArray {
      * 创建长度是length的快照数组。
      * @param length
      */
+    @SuppressWarnings("unchecked")
     public SnapshotArray(int length) {
         this.list = new LinkedList[length];
         this.currentVersion = 0;
