@@ -10,7 +10,7 @@
     </parent>
 
     <groupId>com.ljc</groupId>
-    <artifactId>elasticsearch-plugin-hello</artifactId>
+    <artifactId>elasticsearch-plugin-sql</artifactId>
     <version>1.0</version>
     <properties>
         <project.version>1.0</project.version>

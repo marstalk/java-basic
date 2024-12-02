@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>odemo</artifactId>
+    <artifactId>java-basic</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
@@ -23,6 +23,8 @@
         <module>pipeline</module>
         <module>distributed</module>
         <module>spring/webflux</module>
+        <module>design_pattern</module>
+        <module>java/java-21</module>
     </modules>
 
     <properties>

@@ -1,3 +1,5 @@
 *.class
 .idea
 .vscode
+**/target
+/algorithm/target
