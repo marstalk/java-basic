@@ -1,6 +1,0 @@
-earth 2
-hello 2
-to 2
-welcome 2
-world 1
-mars 1
