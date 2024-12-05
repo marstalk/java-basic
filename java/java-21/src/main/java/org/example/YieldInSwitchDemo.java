@@ -12,8 +12,8 @@ public class YieldInSwitchDemo {
 
     }
 
-    private static String yieldInSwitchRuntime(Object o){
-        return switch(o){
+    private static String yieldInSwitchRuntime(Object o) {
+        return switch (o) {
             case null -> {
                 System.out.println("null");
                 yield null;
