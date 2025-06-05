@@ -25,9 +25,9 @@ import java.util.concurrent.TimeUnit;
 public class ChangeStreamsExample {
 
     public static void main(String[] args) throws IOException {
-        RestClientBuilder restClientBuilder = RestClient.builder(new HttpHost[]{new HttpHost("paas-test-node1.es.test.chinawayltd.com", 7200, "https")});
+        RestClientBuilder restClientBuilder = RestClient.builder(new HttpHost[]{new HttpHost("test.com", 7200, "https")});
         BasicCredentialsProvider basicCredentialsProvider = new BasicCredentialsProvider();
-        basicCredentialsProvider.setCredentials(AuthScope.ANY, new UsernamePasswordCredentials("elastic", "lsEVGHa6zy2rhqR3IQEu"));
+        basicCredentialsProvider.setCredentials(AuthScope.ANY, new UsernamePasswordCredentials("elastic", "aa"));
 
         restClientBuilder.setHttpClientConfigCallback(
                 httpClientBuilder -> {
